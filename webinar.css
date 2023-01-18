@@ -17,16 +17,16 @@
     height: 130vh;
     width: 70vw;
     color: #fff;
-    background-color: #272732;
+    background-color: #42426a;
     display: inline-block; 
     text-align: center;
   }
   
   .right{
     height: 130vh;
-    width: 30%;
+    width: 30vw;
     color: #fff;
-    background-color: #2d2e3a;
+    background-color: #61669b;
     display: inline-block;
     position: relative;
     text-align: center;
@@ -71,23 +71,23 @@
   .home .form input,
   .home .form textarea {
     width: 300px;
-    color: #fff;
+    color: rgb(217, 217, 217);
   }
   
   .home .form input {
     padding: 10px;
     margin: 5px 0;
     background-color: transparent;
-    border: 1px solid #666666;
+    border: 1px solid #d1cfcf;
   }
   
   .home .form input::placeholder {
-    color: #666666;
+    color: #d1d1d1;
   }
   
   .home .form textarea {
     background-color: transparent;
-    border: 1px solid #666666;
+    border: 1px solid #d1cfcf;
     padding: 10px;
   }
   
@@ -99,9 +99,9 @@
   
   .home .form .dropdown select {
     background-color: transparent;
-    border: 1px solid #666666;
+    border: 1px solid #d1cfcf;
     padding: 10px;
-    color: #666666;
+    color: rgb(155, 155, 155);
   }
   
   .home .form .check {
