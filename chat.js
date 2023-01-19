@@ -20,7 +20,7 @@ const chat = {
           },
         ]
     },
-    2: { //Earthquake
+    2: { //Earthquake manager
         text: 'Move away from the windows and outside walls, try to cover your head under a strong table.',
         next: 3
     },
