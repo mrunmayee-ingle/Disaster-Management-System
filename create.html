@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="webinar.css" />
-    <title>Webinar Registration Form</title>
+    <title>Create a Webinar</title>
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
 
@@ -50,11 +50,10 @@
       </div>
   </nav>
 
-    <div class="left">
+  <div class="left">
     <section class="home">
       <br>
-      <p>January 22, 2023 12:00</p>
-      <h1>Join the event</h1>
+      <h1>Create a webinar</h1>
 
       <form class="form">
         <div class="names">
@@ -110,13 +109,13 @@
         </div>
 
         <div class="message">
-          <label>What are you hoping to learn about?</label>
+          <label>What are you going to speak about?</label>
           <textarea
             name="textarea"
             id="textarea"
             cols="30"
             rows="10"
-            placeholder="I am hoping to learn about..."
+            placeholder="I will be speaking about..."
             required
           ></textarea>
         </div>
@@ -124,17 +123,18 @@
           <input type="checkbox" />
           <p>I would like to receive emails about future webinars</p>
         </div> -->
-
-        <br><br><br><br><br>
-          <button type="submit">Create a meeting</button>
-      <script>
-        document.getElementById("myBtn2").addEventListener("click", myFunction);
-        function myFunction() {
-          window.location.href="create.html";
-        }
-      </script>
-      
-        <!-- <button type="submit" onclick="alert('Press Ok to confirm')">Create a meeting</button> -->
+        <br><br><br>
+        <!-- <div class="permissionbutton">
+            <button type="submit" class="btn" id="myBtn2">Create a meeting</button>
+        <script>
+          document.getElementById("myBtn2").addEventListener("click", myFunction);
+          function myFunction() {
+            window.location.href="create.html";
+          }
+        </script> -->
+        
+        <!-- </div>
+        <button type="submit" onclick="alert('Press Ok to confirm')" link="create.html"></button> -->
       </form>
     </section>
 </div>
