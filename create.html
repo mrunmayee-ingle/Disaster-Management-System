@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="webinar.css" />
-    <title>Webinar Registration Form</title>
+    <title>Create a Webinar</title>
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
 
@@ -50,45 +50,85 @@
       </div>
   </nav>
 
-    <div class="left">
+  <div class="left">
     <section class="home">
       <br>
-      <h1>Meeting details</h1>
+      <h1>Create a webinar</h1>
 
       <form class="form">
         <div class="names">
           <div>
-            <label>Time</label>
-            <input type="text" placeholder="" required />
+            <label>First name</label>
+            <input type="text" placeholder="Enter your first name" required />
           </div>
           <div>
-            <label>Duration</label>
-            <input type="text" placeholder="" required />
+            <label>Last name</label>
+            <input type="text" placeholder="Enter your last name" required />
           </div>
         </div>
 
         <div class="emails">
           <div>
-            <label>Date</label>
-            <input type="date" name="email" id="email" placeholder="" required />
+            <label>Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter your email"
+              required
+            />
           </div>
           <div>
             <label>Title</label>
-            <input type="text" placeholder="" required />
+            <input type="text" placeholder="What is your job title?" required />
           </div>
         </div>
 
-        <br><br><br><br>
+        <div class="company">
+          <div>
+            <label>Company name</label>
+            <input type="text" placeholder="Where do you work?" required />
+          </div>
+          <div class="dropdown">
+            <label>Company size</label>
+            <select value="Select">
+              <option name="web-developer" id="web-developer">
+                Web Developer
+              </option>
+              <option
+                name="full-stack-web-developer"
+                id="full-stack-web-developer"
+              >
+                Full Stack Web Developer
+              </option>
+              <option name="frontend-web-developer" id="frontend-web-developer">
+                Frontend Web Developer
+              </option>
+            </select>
+          </div>
+        </div>
+
+        <div class="message">
+          <label>What are you going to speak about?</label>
+          <textarea
+            name="textarea"
+            id="textarea"
+            cols="30"
+            rows="10"
+            placeholder="I will be speaking about..."
+            required
+          ></textarea>
+        </div>
+        <br><br><br>
         <div class="button">
-          <button type="submit" id="myBtn2">Create a zoom meeting link</button>
+          <button type="submit" id="myBtn1">Create</button>
       <script>
-        document.getElementById("myBtn2").addEventListener("click", myFunction);
+        document.getElementById("myBtn1").addEventListener("click", myFunction);
         function myFunction() {
-          window.location.href="create.html";
+          window.location.href="webinar.html";
         }
       </script>
       </div>
-        <!-- <button type="submit" onclick="alert('Press Ok to confirm')">Create a meeting</button> -->
       </form>
     </section>
 </div>
