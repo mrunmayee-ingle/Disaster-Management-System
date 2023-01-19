@@ -98,7 +98,7 @@ img
 /*---------- Header section start ----------*/
 .header
 {
-    background:linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(49, 30, 3, 0.5)), url(img/webinar-booking.jpg);
+    background:linear-gradient(0deg, rgb(0, 10, 70), rgba(122, 158, 209, 0.996)), url(img/webinar-booking.jpg);
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -159,7 +159,7 @@ img
 
 .form-area
 {
-    background: #f6f6f6;
+    background: #ffffff;
     padding: 1.2rem;
 }
 
