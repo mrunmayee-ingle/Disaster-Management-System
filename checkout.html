@@ -6,6 +6,8 @@
 <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
 
+    <title>Donate</title>
+
     <link href="favicon.ico" rel="icon">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -39,6 +41,7 @@ body {
 h2{
   margin-left: 25px;
 }
+
 .col-25 {
   -ms-flex: 25%; 
   flex: 25%;
@@ -65,7 +68,6 @@ h2{
   padding: 5px 20px 15px 20px;
   border: 1px solid lightgrey;
   border-radius: 3px;
- 
 }
 
 .container form footer{
@@ -75,11 +77,9 @@ h2{
   border-radius: 3px;
 }
 
-
-
 .col-25{
   background-color: #f2f2f2;
-  padding: 5px 20px 15px 20px;
+  padding: 7px -16px 15px 20px;
   border: 1px solid lightgrey;
   border-radius: 3px;
   height: 100px;
@@ -133,7 +133,6 @@ span.price {
   color: grey;
 }
 
-
 @media (max-width: 800px) {
   .row {
     flex-direction: column-reverse;
@@ -147,8 +146,8 @@ span.price {
 <body>
 
   <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm py-3 py-lg-0 px-3 px-lg-0">
-    <a href="index.html" class="navbar-brand ms-lg-5">
-        <h1 class="display-5 m-0 text-primary">Frontline<span class="text-secondary">  Forces</span></h1>
+    <a href="index1.html" class="navbar-brand ms-lg-5">
+        <h1 class="display-5 m-0 text-primary">Frontline<span class="text-secondary">Forces</span></h1>
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
@@ -163,7 +162,6 @@ span.price {
                 <div class="dropdown-menu m-0">
                     <a href="checkout.html" class="dropdown-item"></a>
                     <a href="webinar.html" class="dropdown-item">Webinar</a>
-                    
                 </div>
             </div>
             <a href="volunteer.html" class="nav-item nav-link">Volunteer</a>
@@ -177,7 +175,7 @@ span.price {
 <div class="row">
   <div class="col-75">
     <div class="container">
-      <form action="/action_page.php">
+      <form action="https://formspree.io/f/xayzndar" method="POST">
       
         <div class="row">
           <div class="col-50">
@@ -250,9 +248,10 @@ span.price {
   </div>
   <div class="col-25">
     <div class="container">
-      <p>Donation</a> <span class="price">Rs. 0</span></p>
-      <hr>
-      <p>Total <span class="price" style="color:black"><b>Rs. 0</b></span></p>
+      <div class="col-50">
+      <h3><label for="cvv">Donation Amount</label></h3>
+        <input type="text" id="cvv" name="cvv">
+      </div>
     </div>
   </div>
 </div>
@@ -266,32 +265,32 @@ span.price {
                 <div class="d-flex flex-column justify-content-start">
                     <a class="text-light mb-2" href="index1.html"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
                     <a class="text-light mb-2" href="about.html"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
-                    <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
+                    <a class="text-light mb-2" href="create.html"><i class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
                     <a class="text-light" href="checkout.html"><i class="bi bi-arrow-right text-primary me-2"></i>Want to Help</a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
-                <h3 class="text-white mb-4">Popular Links</h3>
+                <h3 class="text-white mb-4">Helpline Numbers</h3>
                 <div class="d-flex flex-column justify-content-start">
-                    <a class="text-light mb-2" href="home.html"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
-                    <a class="text-light mb-2" href="about.html"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
-                    <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
-                    <a class="text-light" href="checkout.html"><i class="bi bi-arrow-right text-primary me-2"></i>Want to Help</a>
+                  <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Earthquake - 011-24363260</a>
+                  <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Air Ambulance - 9540161344 </a>
+                  <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>LPG Leak Helpline - 1906</a>
+                  <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Women Helpline - 1091</a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
-                <h3 class="text-white mb-4">Need Help Touch</h3>
-                <p class="mb-2"><i class="bi bi-geo-alt text-primary me-2"></i>Mumbai,Maharashtra</p>
+                <h3 class="text-white mb-4">Get In Touch</h3>
+                <p class="mb-2"><i class="bi bi-geo-alt text-primary me-2"></i>Navjeevan Bandra West Mumbai Maharashtra</p>
                 <p class="mb-2"><i class="bi bi-envelope-open text-primary me-2"></i>frontlneforces@gmail.com</p>
-                <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i>+91 6034578921</p>
+                <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i>+91 8765178245</p>
             </div>
             <div class="col-lg-3 col-md-6">
                 <h3 class="text-white mb-4">Follow Us</h3>
                 <div class="d-flex">
-                    <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="#"><i class="fab fa-twitter fw-normal"></i></a>
-                    <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
-                    <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
-                    <a class="btn btn-lg btn-primary btn-lg-square rounded" href="#"><i class="fab fa-instagram fw-normal"></i></a>
+                  <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="#"><i class="fab fa-twitter fw-normal"></i></a>
+                  <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
+                  <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
+                  <a class="btn btn-lg btn-primary btn-lg-square rounded" href="#"><i class="fab fa-instagram fw-normal"></i></a>
                 </div>
             </div>
             <div class="col-12">
